@@ -1,0 +1,3 @@
+vivim使用进阶 指随意动，移动如飞 (一)
+
+http://easwy.com/blog/archives/advanced-vim-skills-basic-move-method/

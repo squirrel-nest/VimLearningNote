@@ -1,0 +1,6 @@
+vi命令行历史及命令行窗口
+http://blog.sina.com.cn/s/blog_5ac88b350100an4p.html
+
+用这个命令来打开命令行窗口:
+
+        q:

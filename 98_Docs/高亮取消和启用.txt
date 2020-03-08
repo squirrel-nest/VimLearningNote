@@ -1,0 +1,40 @@
+http://harttle.com/2016/08/08/vim-search-in-file.html#7
+
+禁用/启用高亮
+
+有木有觉得每次查找替换后 Vim 仍然高亮着搜索结果？ 可以手动让它停止高亮，在normal模式下输入：
+
+:nohighlight
+" 等效于
+:nohl
+其实上述命令禁用了所有高亮，只禁用搜索高亮的命令是:set nohlsearch。 下次搜索时需要:set hlsearch再次启动搜索高亮。
+
+延时禁用
+
+怎么能够让Vim查找/替换后一段时间自动取消高亮，发生查找时自动开启呢？
+
+" 当光标一段时间保持不动了，就禁用高亮
+autocmd cursorhold * set nohlsearch
+" 当输入查找命令时，再启用高亮
+noremap n :set hlsearch<cr>n
+noremap N :set hlsearch<cr>N
+noremap / :set hlsearch<cr>/
+noremap ? :set hlsearch<cr>?
+noremap * *:set hlsearch<cr>
+
+
+一键禁用
+
+如果延时禁用搜索高亮仍然不够舒服，可以设置快捷键来一键禁用/开启搜索高亮：
+
+noremap n :set hlsearch<cr>n
+noremap N :set hlsearch<cr>N
+noremap / :set hlsearch<cr>/
+noremap ? :set hlsearch<cr>?
+noremap * *:set hlsearch<cr>
+
+nnoremap <c-h> :call DisableHighlight()<cr>
+function! DisableHighlight()
+    set nohlsearch
+endfunc
+希望关闭高亮时只需要按下 Ctrl+H，当发生下次搜索时又会自动启用。

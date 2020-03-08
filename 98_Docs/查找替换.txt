@@ -1,0 +1,7 @@
+全部替换：
+:%s/127.0.0.1/192.168.0.9/g
+
+
+:%s/要替换的字符/新的字符/g注：g是全局参数，如果加上这个，你文中有多少就替换多少，如果不加，就只能一个一个的替换！ 比如：在文中有Hello，我要将Hello替换成 Hi，如下：:%s/Hello/Hi/g前面有冒号
+
+:%s/o=JNDITutorial/o=JNDITutorial0, dc=longzhi, dc=com/g

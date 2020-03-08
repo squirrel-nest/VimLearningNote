@@ -1,0 +1,2 @@
+技巧：Vim 的纵向编辑模式
+https://www.ibm.com/developerworks/cn/linux/l-cn-vimcolumn/index.html

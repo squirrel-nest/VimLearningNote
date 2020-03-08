@@ -1,0 +1,49 @@
+How to Install VIM in CentOS
+
+
+http://apetec.com/linux/installvim.htm
+
+
+You need to manually install VIM on a system running CentOS.
+
+Vim, or VI enhanced, is the successor of the famous vi editor which is found almost in every Linux distribution even on a recovery environment and has some nice features like syntax highlight for files and other useful stuff.
+
+To install it and use in CentOS all you have to do is input the following :
+
+yum install vim-X11 vim-common vim-enhanced vim-minimal
+
+Once done you can enjoy the full benefits of a full featured and very powerful text editor.
+
+Configuration
+
+vim is a highly configurable editor, and it is best to configure vim to your liking as vim by default has all the nice features turned off. It will read the file .vimrc in your home directory before it starts (~/.vimrc).
+
+.vimrc file
+
+set history=700				" Sets how many lines of history VIM has to remember
+
+set nocampatible
+colo delek
+syntax on
+
+set showmode
+
+set autoindent
+set smartindent
+set backspace=eol,start,indent
+
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set ruler
+
+set number
+set ignorecase
+set smartcase
+set hlsearch
+set backup
+set backupdir=~/vim/tmp/
+set nowrap
+set laststatus=2
+set cmdheight=2
+ 

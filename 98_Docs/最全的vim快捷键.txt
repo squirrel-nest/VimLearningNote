@@ -1,0 +1,2 @@
+最全的vim快捷键
+http://blog.csdn.net/donahue_ldz/article/details/17139361
