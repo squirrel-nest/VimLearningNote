@@ -1,3 +1,13 @@
+# 常用操作
+## 文件操作
+   * 参考
+      + 这篇的图解很好 - [Graphical vi-vim Cheat Sheet and Tutorial](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)<br>
+      + [精通 VIM ，此文就够了](https://zhuanlan.zhihu.com/p/68111471)<br>
+## 快捷键
+   * 参考
+      + 
+      + [vim 常用快捷键及使用技巧](https://www.jianshu.com/p/dde77e3b299f)<br>
+      + [Vim (vi) 编辑器快捷键大全【图解】，各种操作，指令大全 | 从无到有 | linux | mac | terminal](https://segmentfault.com/a/1190000016056004)<br>
 # 环境设置
 ## System 环境设置
    * 参考
