@@ -31,3 +31,6 @@
                * ```shell
                     是vim的默认主题default，如果想使用其他主题，将上述代码片第18行的 colorscheme default 改成对应的主题即可，比如可以改成 
                  ```
+## Vim 与 Clipboard - 有的系统的Vim 没有加载 剪贴板 的功能
+   * 参考
+      + [Accessing the system clipboard](https://vim.fandom.com/wiki/Accessing_the_system_clipboard)<br>
